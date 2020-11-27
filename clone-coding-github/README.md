@@ -24,5 +24,8 @@
 ### 구조 파악
 * Header 작업
     * 로고, 메뉴 Search/로그인/회원가입 버튼 등
+    * float 처리에 대한 clearfix를 common으로 작성해 놓는다.
+    * a 태그의 underline과 기본 색상을 설정을 common으로 작성해 놓는다.
+    * 문서의 텍스트를 지우지 않고 hidden 처리할 때에는 text-intent를 -9999로 한다.(로고 처리)
 
 
