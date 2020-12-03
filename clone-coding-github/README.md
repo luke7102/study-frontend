@@ -26,6 +26,13 @@
     * 로고, 메뉴 Search/로그인/회원가입 버튼 등
     * float 처리에 대한 clearfix를 common으로 작성해 놓는다.
     * a 태그의 underline과 기본 색상을 설정을 common으로 작성해 놓는다.
-    * 문서의 텍스트를 지우지 않고 hidden 처리할 때에는 text-intent를 -9999로 한다.(로고 처리)
+    * 문서의 텍스트를 지우지 않고 hidden 처리할 때에는 text-intent를 -9999px로 한다.(로고 처리)
+* Section 작업
+    * 각 세션별로 class를 만들고 영역을 나눈다.
+    * background image size는 cover로 지정하여 가득 차게 한다.
+    * 자연스러운 연결된 글자를 위해서 띄어쓰기로 하지 않고 줄바꿈이 필요한 연결부위는 \&nbsp;로 표현한다.
+    * 배경을 어둡게 처리할때에는 요소 앞에 레이어를 씌운다는 생각으로 가성 요소 선택자 before를 사용하여 검은색 알파값을 줘서 사용한다.
+    * 항상 section의 root가 되는 부분에는 작업의 용이성을 위해서 relative를 설정한다.
+  
 
 
